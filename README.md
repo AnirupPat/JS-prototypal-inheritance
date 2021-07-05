@@ -1,0 +1,1 @@
+# JS-prototypal-inheritance
