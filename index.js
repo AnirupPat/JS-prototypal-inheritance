@@ -57,3 +57,16 @@ obj1.getInfo(); // Anirup BBSR
 
 obj2.__proto__ = obj1;
 obj2.getInfo(); // Sharan BBSR
+
+// Another concept...
+
+Function.prototype.mybind = function () {
+  console.log("Additional Operations");
+};
+
+function fun10() {}
+
+function fun11() {}
+
+fun10.mybind(); // Additional Operations
+fun11.mybind(); // Additional Operations
